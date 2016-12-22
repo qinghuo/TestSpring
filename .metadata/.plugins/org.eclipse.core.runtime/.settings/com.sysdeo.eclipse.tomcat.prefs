@@ -1,0 +1,11 @@
+computeSourcePath=true
+contextsDir=D\:\\work\\tomcat7\\conf\\Catalina\\localhost
+eclipse.preferences.version=1
+managerPassword=admin
+managerUrl=http\://localhost\:8080/manager
+managerUser=admin
+tomcatBase=D\:\\work\\tomcat7
+tomcatConfigFile=D\:\\work\\tomcat7\\conf\\server.xml
+tomcatDir=D\:\\work\\tomcat7
+tomcatJRE=1429666249129
+tomcatVersion=tomcatV7

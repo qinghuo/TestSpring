@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Sat May 30 19:12:21 CST 2015
+org.eclipse.jst.j2ee.server\:roo.dal=D\:\\work\\tomcat7\\wtpwebapps\\roo.backend\\WEB-INF\\lib\\roo.dal-1.0.jar
+org.eclipse.jst.j2ee.server\:roo.commonservice=D\:\\work\\tomcat7\\wtpwebapps\\roo.backend\\WEB-INF\\lib\\roo.commonservice-1.0.jar
+org.eclipse.jst.j2ee.server\:roo.common=D\:\\work\\tomcat7\\wtpwebapps\\roo.backend\\WEB-INF\\lib\\roo.common-1.0.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\work\\m2\\org\\springframework\\spring-web\\3.2.8.RELEASE\\spring-web-3.2.8.RELEASE.jar=D\:\\work\\tomcat7\\wtpwebapps\\roo.backend\\WEB-INF\\lib\\spring-web-3.2.8.RELEASE.jar
+org.eclipse.jst.jee.server\:roo.backend=D\:\\work\\tomcat7\\wtpwebapps\\roo.backend

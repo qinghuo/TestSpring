@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:s="http://www.springframework.org/schema/security"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+    http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+	<!-- 不用经过spring security过滤   -->
+	<s:http pattern="/img/**" security="none"/>
+	<s:http pattern="/js/**" security="none"/>
+	<s:http pattern="/css/**" security="none"/>
+	<s:http pattern="**/login" security="none"/>
+	  
+	<s:http>
+		<s:intercept-url pattern="/**" access="ROLE_RED" />
+        <s:form-login />
+        <s:anonymous />
+        <s:logout />
+    </s:http>
+
+	  <s:http use-expressions="true" entry-point-ref="authenticationProcessingFilterEntryPoint" >
+		 <!-- 不再在这里对url进行权限拦截，在数据库中取出url中对应的权限  
+		   <intercept-url pattern="/**" access="ROLE_USER" />
+		 -->
+		   <!-- 单用户登陆 -->
+		   <session-management>
+			  <concurrency-control max-sessions="1"
+				error-if-maximum-exceeded="true" />
+		   </session-management>
+	  
+ <!-- 这种自定义的登录页面，不能经过security的用户信息验证，也就等于不能取出用户的权限	 
+		   <form-login login-page='/login.jsp' default-target-url="/index.jsp"/>
+  -->		  
+			<!-- 尝试访问没有权限的页面时跳转的页面 -->	  
+		   <access-denied-handler error-page="/403.jsp"/>
+		  
+		   <custom-filter ref="loginFilter" position="FORM_LOGIN_FILTER"  />   
+			 
+		   <custom-filter ref="myFilter" before="FILTER_SECURITY_INTERCEPTOR"/>
+   
+		   <!-- 检测失效的sessionId,session超时时，定位到另外一个URL -->  
+			<session-management invalid-session-url="/sessionTimeOut.jsp" /> 
+		<!-- 
+			<custom-filter ref="logoutFilter" before="LOGOUT_FILTER"/>
+			 -->
+			 
+			 <logout invalidate-session="true"  logout-success-url="/"  logout-url="/logout"/>
+	  </s:http>
+
+</beans>

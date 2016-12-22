@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>pom</CommitComment>
+	<CommitComment>test</CommitComment>
+	<CommitComment>提交标的管理的相关接口</CommitComment>
+	<CommitComment>自动生成mapper</CommitComment>
+	<CommitComment>velocity</CommitComment>
+	<CommitComment>解决日期转换的问题</CommitComment>
+</CommitComments>

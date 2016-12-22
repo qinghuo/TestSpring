@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.test.context.ContextConfiguration"/>
+<fullyQualifiedTypeName name="com.weidai.common.CommonTest"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl.JdbcTypeInformation"/>
+<fullyQualifiedTypeName name="org.mybatis.generator.api.JavaTypeResolver"/>
+<fullyQualifiedTypeName name="org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl"/>
+<fullyQualifiedTypeName name="sun.security.krb5.internal.crypto.Des"/>
+<fullyQualifiedTypeName name="javax.crypto.spec.SecretKeySpec"/>
+<fullyQualifiedTypeName name="javax.crypto.SecretKey"/>
+<fullyQualifiedTypeName name="javax.crypto.Cipher"/>
+<fullyQualifiedTypeName name="java.security.Security"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.config.ConfigurableListableBeanFactory"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="org.springframework.beans.BeansException"/>
+<fullyQualifiedTypeName name="com.weidai.utils.DesUtil"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.BeanInitializationException"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.weidai.dao.admin.mapper.EmployeeDoMapper"/>
+<fullyQualifiedTypeName name="com.weidai.dao.admin.mapper.PrivilegeDoMapper"/>
+<fullyQualifiedTypeName name="com.weidai.dao.admin.mapper.RoleDoMapper"/>
+<fullyQualifiedTypeName name="com.weidai.dao.admin.mapper.EmployeeRoleDoMapper"/>
+<fullyQualifiedTypeName name="com.weidai.entity.member.MortgageInfoDo"/>
+<fullyQualifiedTypeName name="com.weidai.web.bid.vo.BidQueryVo"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.weidai.entity.bid.BidDo"/>
+<fullyQualifiedTypeName name="com.weidai.web.bid.vo.BidVo"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="com.weidai.easyuiModel.EasyuiCombobox"/>
+<fullyQualifiedTypeName name="com.weidai.entity.admin.EmployeeDo"/>
+<fullyQualifiedTypeName name="com.weidai.entity.Menu"/>
+<fullyQualifiedTypeName name="com.weidai.easyui.model.EasyuiTreeCombobox"/>
+<fullyQualifiedTypeName name="com.weidai.easyui.model.EasyuiCombobox"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="com.weidai.service.admin.TestService"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.weidai.dao.admin.mapper.SysParamConfigDoMapperExt"/>
+<fullyQualifiedTypeName name="com.weidai.dao.admin.mapper.SysParamConfigDoMapper"/>
+</qualifiedTypeNameHistroy>
